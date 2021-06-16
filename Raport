@@ -3,6 +3,6 @@ Preprocessing
 1.usunięcie stop-words. 
 2. Zrobiłam wordCloud i dodałam do stopwords słowa, które się najczęsciej powtarzają, a nie niosą za sobą żadnego znaczenia.
 3. Dodałam również warstwę dropout (0.5) oraz dopasowałam funkcje aktywacji.
-4. Lemmatyzacja.
+4. Lemmatyzacja, poprawnośc była dobra od samegą początku, ze względu na imbalanced set. Lemmatyzacja poprawiła recall i f1-score
 5. Eksperymentowałam również z ilością warstw sieci i ilością neuronów.
 5. Na końcu zrobiłam oversampling/downsampling, co najbardziej pomogło poprawić mój model. W tym celu chciałam uzyć imbalanced-learn, ale w koncu zrobiłam to na poziomie dataframu.
